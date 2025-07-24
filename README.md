@@ -9,20 +9,20 @@ An email phishing detector with QR code awareness and VirusTotal integration.
 6）Modular Architecture: Easy to extend, test, and integrate into larger systems.
 
 ## Structure
-├── email_reader.py # Extracts email content, attachments, and metadata
-├── image_extractor.py # Parses image attachments
-├── qr_decoder.py # Decodes QR code content from images
-├── enhanced_url_extractor.py # Extracts hyperlinks from text and HTML content
-├── vt_checker.py # Communicates with VirusTotal API
-├── blacklist_checker.py # Local CSV-based blacklist filtering
-├── result_saver.py # Consolidates and exports results
-├── main_controller.py # Main entry point for scanning workflow
-├── config.json # Stores API key and settings
-├── blacklist.csv # Local URL/domain blacklist
-├── extracted_urls.csv # Output of scanned and decoded URLs
-├── malicious_QR_example.png # Sample image containing a QR phishing link
-├── README.md # Documentation
-└── LICENSE # MIT License
+ email_reader.py # Extracts email content, attachments, and metadata
+ image_extractor.py # Parses image attachments
+ qr_decoder.py # Decodes QR code content from images
+ enhanced_url_extractor.py # Extracts hyperlinks from text and HTML content
+ vt_checker.py # Communicates with VirusTotal API
+ blacklist_checker.py # Local CSV-based blacklist filtering
+ result_saver.py # Consolidates and exports results
+ main_controller.py # Main entry point for scanning workflow
+ config.json # Stores API key and settings
+ blacklist.csv # Local URL/domain blacklist
+ extracted_urls.csv # Output of scanned and decoded URLs
+ malicious_QR_example.png # Sample image containing a QR phishing link
+ README.md # Documentation
+ LICENSE # MIT License
 
 ## Environment Setup
 
